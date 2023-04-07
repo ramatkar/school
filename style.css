@@ -1,0 +1,217 @@
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(246, 241, 241);
+    margin: 0;
+    padding: 0;
+    background: url("img.jpeg") ;
+    background-size: cover;
+    
+}
+
+.container {
+    background: transparent;
+    opacity: 1;
+    color: black;
+    display: flex;
+    padding: 20px;
+    margin: auto;
+    border-top: 4px solid transparent;
+
+    border-radius: 0px;
+
+    /*text-align: center;*/
+}
+
+.nav {
+    width: 20%;
+    /* background-color:#146C94 ;*/
+}
+
+#item1 {
+    width: 40%;
+    text-align: LEFT;
+    padding :10px;
+    display: flex;
+    color: white;
+}
+
+#item2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+
+
+#item3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: white;
+
+}
+
+#item4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: white;
+}
+
+.footer {
+    display: flex;
+    align-items: flex end;
+    text-align: left;
+    background-color: black;
+    opacity: 0.6  ;
+    color: white;
+    padding-bottom: 50px;
+
+}
+
+.wid {
+    width: 20%;
+    padding-left: 8px;
+    padding-top: 8px;
+    justify-content: space-between;
+}
+
+.back {
+    
+    height: 80vh;
+    color: white;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+#logo img {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+
+}
+
+#text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.input_data {
+    border: 0;
+    background: transparent;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 20%;
+    color: white;
+    border: 4px solid white;
+}
+
+#search_bar {
+    
+    opacity:1;
+    background: none;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.input_data::placeholder {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    
+
+}
+
+#remember_me {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+
+}
+
+.check {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+
+}
+
+#forget {
+    cursor: pointer;
+}
+
+#forget:hover {
+    color: black;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin-top: 10px;
+    padding: 10px;
+
+}
+
+.button1 {
+    color: black;
+    background: white;
+    text-decoration: none;
+    display: block;
+    border: 4px solid white;
+    border-radius: 10px;
+    width: 20%;
+}
+
+.login_block {
+
+    border: 4px solid white;
+    width: 40%;
+    border-radius: 20px;
+    box-shadow: 3px 3px 30px white;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.button1:hover{
+    background:transparent;
+    color:white;
+    box-shadow:0px 0px 20px blue;
+}
+a:hover{
+    box-shadow:0px 0px 50px white;
+}
+p:hover{
+    box-shadow:0px 0px 50px white;
+}
+img:hover
+    {
+        box-shadow:0px 0px 50px white;
+        border-radius: 2000px;
+    }
+.input_data:hover
+{
+    box-shadow:0px 0px 50px white;
+}

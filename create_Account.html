@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Prompt:wght@200&display=swap" rel="stylesheet">
+<link rel="icon" href="logovvd.jpg">
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background: url("img.jpeg");
+            color: white;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: 2fr 3fr;
+        }
+        #left{
+            font-family: 'Dancing Script', cursive;
+            text-align: center;
+            justify-content: center;
+            height: 100vh;
+            padding-top: 40vh;
+            background-color: rgb(27, 56, 110);
+            color: whitesmoke;
+        }
+        #right{
+            
+            font-family: 'Prompt', sans-serif;
+            justify-content: center;
+            padding-top: 25vh;
+            
+        }
+        h3{
+            color: rgb(210, 200, 18);
+            text-decoration: solid;
+            padding-left: 10vw;
+            font-size:x-large;
+            
+        }
+        .form{
+            position: relative;
+            justify-content: center;
+            
+            padding-left: 10vw;
+        }
+        .button{
+            font-size: large; 
+            font-family: 'Prompt', sans-serif;
+            background: rgb(27, 56, 110);
+            color: azure;
+            border-radius: 20px;
+            border: none;
+            padding: 10px;
+            
+            
+        }
+        .button:hover{
+            box-shadow: 3px 3px 10px;
+            background-color: rgb(94, 245, 144);
+            color:blue;
+        }
+        .field{
+            background: none;
+            border-radius:8px ;
+            padding:15px;
+            margin: 0;
+            border: 0;
+            color:white;
+            box-shadow: 3px 3px 10px;
+            padding-right: 20vw;
+            padding: 1vh;
+        }
+        .check:hover{
+            box-shadow: 10px 10px 30px;
+
+            color:blue;
+        }
+        .check{
+            background: transparent;
+            border:4px;
+        }
+        a{
+            text-decoration: None;
+            color:white;
+            background-color: rgb(27, 56, 110);
+            border-radius: 20px;
+            padding: 10px;
+        }
+        a:hover{
+            box-shadow: 3px 3px 10px;
+            background-color: rgb(94, 245, 144);
+            color:blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="left" >
+            <h1>
+                Welcome to Ved Vidyalayam Website We are happy to serve you
+            </h1>
+        </div>
+        <div id="right">
+            <h3>
+                Create Account
+            </h3>
+            <div class="form">
+                 Full Name
+                <br>
+                <input type="text" placeholder="" class="field">
+                </input>
+                <br>
+                Email address
+                <br>
+                <input type="email" placeholder="" class="field">
+                </input>
+                <br>
+                Password
+                <br>
+                <input type="password" placeholder="" class="field">
+                </input>
+                <br>
+                Confirm Password
+                <br>
+                <input type="password" placeholder="" class="field">
+                </input>
+                <br>
+                <input type="checkbox" class="check">
+                </input>
+                Remember me
+                <br>
+                <input type="button" value="Create Account" class="button">
+                </input>
+                <br>
+                <br>
+                <a href="index.html">
+                    BACK
+                </a>
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>
